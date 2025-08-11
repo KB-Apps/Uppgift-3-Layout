@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Uppgift-3-Layout
 //
-//  Created by Karolin Blomqvist on 2025-08-08.
+//  Created by KB on 2025-08-08.
 //
 
 import SwiftUI
