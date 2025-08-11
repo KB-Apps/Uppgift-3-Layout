@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0D5F127E2E4A4381004606AB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F127D2E4A4371004606AB /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0DB8B0782E45E70A0051720B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,12 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D5F127D2E4A4371004606AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0DB8B06A2E45E7090051720B /* Uppgift-3-Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uppgift-3-Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB8B0772E45E70A0051720B /* Uppgift-3-LayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uppgift-3-LayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB8B0812E45E70A0051720B /* Uppgift-3-LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uppgift-3-LayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		0D5F12812E4A4469004606AB /* Images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Images;
+			sourceTree = "<group>";
+		};
 		0DB8B06C2E45E7090051720B /* Uppgift-3-Layout */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Uppgift-3-Layout";
@@ -75,6 +85,8 @@
 		0DB8B0612E45E7090051720B = {
 			isa = PBXGroup;
 			children = (
+				0D5F12812E4A4469004606AB /* Images */,
+				0D5F127D2E4A4371004606AB /* README.md */,
 				0DB8B06C2E45E7090051720B /* Uppgift-3-Layout */,
 				0DB8B07A2E45E70A0051720B /* Uppgift-3-LayoutTests */,
 				0DB8B0842E45E70A0051720B /* Uppgift-3-LayoutUITests */,
@@ -108,6 +120,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				0D5F12812E4A4469004606AB /* Images */,
 				0DB8B06C2E45E7090051720B /* Uppgift-3-Layout */,
 			);
 			name = "Uppgift-3-Layout";
@@ -212,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5F127E2E4A4381004606AB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
