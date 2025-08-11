@@ -5,4 +5,4 @@
 Skapa en enkel app som ser ut likt bifogad bild. 
 
 
-<img src="Images/iOS1.png" alt="Uppgift 1 iOS" width="200"/>
+<img src="Images/iOS1.png" alt="Uppgift 1 iOS" width="300"/>
